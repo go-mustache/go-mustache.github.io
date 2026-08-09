@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ .Site.Title }} — Pure-Go Mustache.</title>
+<meta name="description" content="Pure-Go Mustache.">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="stylesheet" href="{{ "css/brand.css" | relURL }}">
+<script src="{{ "js/theme.js" | relURL }}"></script>
+</head><body>
+<section class="hero">
+  <button id="themebtn" class="theme" type="button">Theme: System</button>
+  <img src="{{ "img/go-mustache-white.png" | relURL }}" alt="go-mustache">
+  <h1>go-mustache</h1>
+  <p>Pure-Go Mustache.</p>
+  <div class="btns">
+    <a class="btn btn-solid" href="https://go-mustache.github.io/docs/">Documentation</a>
+    <a class="btn btn-ghost" href="https://github.com/go-mustache">GitHub</a>
+  </div>
+</section>
+<div class="wrap">
+  <div class="panel">
+    <h2>What is go-mustache?</h2>
+    <p>go-mustache is a pure-Go (CGO_ENABLED=0) implementation of the logic-less Mustache templating language, faithful to the language-independent Mustache spec — compile a template to tokens and render it against a context.</p>
+  </div>
+  <h2 class="section">Packages</h2>
+  <p class="sub">{{ len site.Data.pkgs.packages }} module(s) — generated from the org's repos.</p>
+  <div class="grid">
+    <div class="card"><div class="chip">MU</div><div class="nm">mustache</div><div class="ds">Logic-less Mustache templating, faithful to the language-independent spec.</div><div class="lk"><a href="https://github.com/go-mustache/mustache">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-mustache/mustache">pkg.go.dev</a></div></div>
+  </div>
+</div>
+<footer>Built with Hugo · Pure Go, CGO=0 · Branding from <a href="https://github.com/go-mustache/brand">go-mustache/brand</a></footer>
+</body></html>

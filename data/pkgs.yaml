@@ -1,0 +1,2 @@
+packages:
+  - { name: "mustache", desc: "Logic-less Mustache templating, faithful to the language-independent spec.", url: "https://github.com/go-mustache/mustache", doc: "https://pkg.go.dev/github.com/go-mustache/mustache" }
